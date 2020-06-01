@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://meet:Meet@3698@anonymous-edqd9.mongodb.net/Account?retryWrites=true&w=majority",{useNewUrlParser:true},(err)=>{
+mongoose.connect("mongodb+srv://meet:<password>@anonymous-edqd9.mongodb.net/Account?retryWrites=true&w=majority",{useNewUrlParser:true},(err)=>{
     if(!err) console.log('connected!');
     else console.log(err);
 })
